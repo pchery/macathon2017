@@ -7,6 +7,7 @@
 .line {
   border-color: $dark-blue;
   border-width: 3px;
+  margin-bottom: 3px;
 }
 
 .content {
@@ -33,6 +34,10 @@
   padding-right: 0px;
 }
 
+.trending {
+  margin-top: 15px;
+}
+
 
 // ---------------- Hashtags ----------------
 .hashtag-container {
@@ -45,20 +50,34 @@
 
 .hashtag {
   height: 2em;
+  border-radius: 5px;
+}
+
+.hashtag-container .hashtag {
+  background-color: $light-grey;
+  border-radius: 5px;
 }
 
 
 //--------------------Dashboard ----------------------
 .naut-title {
   height: 2em;
+  background: none;
+  margin-bottom: 10px;
 }
 
 .naut-title p {
-  color: $dark-blue;
+  color: $orange;
   display: flex;
   justify-content: center;
   padding-top: 2px;
+  padding-bottom: 2px;
   font-family: Moon-Bold;
+  font-size: 30px;
+}
+
+#middle-line {
+  color: $dark-blue;
 }
 
 
