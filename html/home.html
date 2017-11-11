@@ -2,11 +2,16 @@
 <html>
 
 <head>
-  <title>Naut</title>
+  <title> &middot; Naut &middot;</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
   <link rel="stylesheet" href="../sass/home.scss">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="../js/home.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/home.css">
+  <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+  <script src="https://use.fontawesome.com/4dd36986d9.js"></script>
+
 </head>
 
 <body>
@@ -35,16 +40,21 @@
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
             </button>
-        <a href="#" class="navbar-brand">NAUT</a>
+
+
+        <a href="#" class="navbar-brand"> &middot; NAUT &middot;</a>
       </div>
       <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">My Profile</a></li>
+        <ul class="nav navbar-nav navbar-middle">
+          <li class="active"><a href="#">Launch a Mission</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Login</a></li>
+          <li><a href="#">Settings <i class="fa fa-cog"></i></a></li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-times"></i> Log out</a></li>
+        </ul>
+
       </div>
     </nav>
 
@@ -53,11 +63,11 @@
         <div class="naut-visualization col-lg-12 content"></div>
       </div>
 
-      <hr>
+      <hr class="line">
 
       <div class="row trending">
         <div class="but1 col-md-1" >
-          <img class="b1" src="next.png" style="display:none; margin:auto;"> 
+          <img class="b1 trending_arrow" src="leftarrow-12.png"> 
         </div>
         <div class="trending-box-1 col-md-5">
           <div class="trending1 content"> naut1</div>
@@ -67,69 +77,71 @@
           <div class="trending2 content"> naut2</div>
         </div>
         <div class="but2 col-md-1">
-          <img class="b2" src="next.png" style="display:none;margin:auto;"> 
+          <img class="b2 trending_arrow" src="rightarrow-13.png" > 
         </div>
       </div>
 
       <div class="hashtag-container row">
         <div class="col-md-2">
-          <div class="content hashtag col-md-12"></div>
+          <div class="hashtag col-md-12"></div>
         </div>
         <div class="col-md-2">
-          <div class="content hashtag col-md-12"></div>
+          <div class="hashtag col-md-12"></div>
         </div>
         <div class="col-md-2">
-          <div class="content hashtag col-md-12"></div>
+          <div class="hashtag col-md-12"></div>
         </div>
         <div class="col-md-2">
-          <div class="content hashtag col-md-12"></div>
+          <div class="hashtag col-md-12"></div>
         </div>
         <div class="col-md-2">
-          <div class="content hashtag col-md-12"></div>
+          <div class="hashtag col-md-12"></div>
         </div>
         <div class="col-md-2">
-          <div class="content hashtag col-md-12"></div>
+          <div class="hashtag col-md-12"></div>
         </div>
       </div>
 
-      <hr>
+      <hr class="line">
 
       <div class="dashboard">
         <div class="naut-selector row">
-          <div class="naut-title col md-6">
-              <div>
-                <div class="naut-title content col-md-6">
-                  <p class="my-nauts">My Nauts</p>
-                </div>
-
-                <div class="naut-title content col-md-6">
-                  <p class="past-nauts">All Nauts</p>
-                </div>
+              <div class="naut-title col-md-5">
+                <p class="my-nauts">My Missions</p>
               </div>
-
-
+              <div class="naut-title col-md-1"><p id="middle-line">|</p></div>
+              <div class="naut-title col-md-5">
+                <p class="past-nauts">All Missions</p>
+              </div>
           </div>
         </div>
           <div class="row">
-            <div class="naut-item content col-md-12"> 
+            <div class="naut-item content col-md-12" id="0"> 
                 <div class="row"></div>
-                <div class="row mission"> 
-                    <img class="pledge" src="button-11.png"> 
-                    <img class="mission_pop" src="mission!-16.png"> 
+                    <div class="naut-title col-sm-6"></div>
+                    <div class="naut-location col-sm-6"></div>
+                <div class="naut-body row"></div>
+                <div class="naut-bottom row">
+                        <img class="pledge" src="button-11.png"> 
+                        <img class="mission_pop" src="mission!-16.png"> 
                 </div>
             </div>
           </div>
           <div class="row">
-            <div class="naut-item content col-md-12">
+            <div class="naut-item content col-md-12" id="1">
                 <div class="row"></div>
-                <div class="row mission">
-                    <img class="pledge" src="button-11.png"> 
-                    <img class="mission_pop" src="mission!-16.png"> 
+                    <div class="naut-title col-sm-6"></div>
+                    <div class="naut-location col-sm-6"></div>
+                <div class="naut-body row"></div>
+                <div class="naut-bottom row">
+                        <img class="pledge" src="button-11.png"> 
+                        <img class="mission_pop" src="mission!-16.png"> 
                 </div>
              </div>
           </div>
       </div>
     </div>
+
   </body>
 
   </html>

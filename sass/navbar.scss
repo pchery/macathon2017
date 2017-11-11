@@ -1,0 +1,38 @@
+@import "variables";
+
+.navbar.navbar-default {
+  background-color: $light-grey;
+  border-color: #ffffff;
+}
+.navbar.navbar-default .navbar-brand {
+  color: $dark-blue;
+}
+.navbar.navbar-default .navbar-brand:hover,
+.navbar.navbar-default .navbar-brand:focus {
+  color: $orange;
+}
+.navbar.navbar-default .navbar-text {
+  color: $dark-blue;
+}
+.navbar.navbar-default .navbar-nav > li > a {
+  color: $dark-blue;
+}
+.navbar.navbar-default .navbar-nav > li > a:hover,
+.navbar.navbar-default .navbar-nav > li > a:focus {
+  color: $orange;
+}
+.navbar.navbar-default .navbar-nav > .active > a,
+.navbar.navbar-default .navbar-nav > .active > a:hover,
+.navbar.navbar-default .navbar-nav > .active > a:focus {
+  color: $orange;
+  background-color: $light-grey;
+}
+.navbar.navbar-default .navbar-nav > .open > a,
+.navbar.navbar-default .navbar-nav > .open > a:hover,
+.navbar.navbar-default .navbar-nav > .open > a:focus {
+  color: $orange;
+  background-color: $light-grey;
+}
+.navbar.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}

@@ -1,7 +1,18 @@
+@import "variables";
+
+* {
+  font-family: Moon-Bold;
+}
+
+.line {
+  border-color: $dark-blue;
+  border-width: 3px;
+  margin-bottom: 3px;
+}
 
 .content {
   border-radius: 5px;
-  background-color: blue;
+  background: radial-gradient($salmon, $salmon,white); //
 }
 
 .naut-visualization {
@@ -23,9 +34,10 @@
   padding-right: 0px;
 }
 
-.hr {
-  display: block;
+.trending {
+  margin-top: 15px;
 }
+
 
 // ---------------- Hashtags ----------------
 .hashtag-container {
@@ -38,19 +50,34 @@
 
 .hashtag {
   height: 2em;
+  border-radius: 5px;
+}
+
+.hashtag-container .hashtag {
+  background-color: $light-grey;
+  border-radius: 5px;
 }
 
 
 //--------------------Dashboard ----------------------
 .naut-title {
   height: 2em;
+  background: none;
+  margin-bottom: 10px;
 }
 
 .naut-title p {
-  color: white;
+  color: $orange;
   display: flex;
   justify-content: center;
   padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: Moon-Bold;
+  font-size: 30px;
+}
+
+#middle-line {
+  color: $dark-blue;
 }
 
 
@@ -61,18 +88,30 @@
 
 .pledge {
   position: absolute;
+  justify-content: center;
   bottom: 0;
-  right: 49%;
+  right: 50%;
   width: 2%;
   display: block; 
-  margin: auto;
 }
 
 .mission_pop {
   position: absolute;
   bottom: 0;
-  right: 45%;
+  right: 50%;
   width: 10%;
   display: none; 
   margin: auto;
+}
+
+.trending_arrow {
+  display:none; 
+  margin:auto; 
+  width: 90%;
+
+}
+
+.naut-location {
+  align
+
 }
