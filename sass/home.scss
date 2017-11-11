@@ -15,14 +15,19 @@
   background: radial-gradient($salmon, $salmon,white); //
 }
 
+
+.all-container {
+  padding: 0 5em 0 5em;
+}
 .naut-visualization img {
   max-width: 100%;
   max-height: 100%;
 }
 
 //---------------- Trending -----------------
-.trending1, .trending2 {
-  height: 8em;
+.trending1, .trending2{
+
+
 }
 
 .trending .trending-box-1 {
@@ -119,9 +124,10 @@
 }
 
 .trending_arrow {
-  display:none;
+  display:block;
   margin:auto;
   width: 90%;
+  max-width: 50px;
 }
 
 .container {

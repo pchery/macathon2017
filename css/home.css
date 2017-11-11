@@ -16,12 +16,12 @@
   border-radius: 5px;
   background: radial-gradient(#EBD2BD, #EBD2BD, white); }
 
+.all-container {
+  padding: 0 5em 0 5em; }
+
 .naut-visualization img {
   max-width: 100%;
   max-height: 100%; }
-
-.trending1, .trending2 {
-  height: 8em; }
 
 .trending .trending-box-1 {
   padding-right: 5px;
@@ -96,9 +96,10 @@
   margin-bottom: 10px; }
 
 .trending_arrow {
-  display: none;
+  display: block;
   margin: auto;
-  width: 90%; }
+  width: 90%;
+  max-width: 50px; }
 
 .container {
   margin-bottom: 40px; }
@@ -133,6 +134,8 @@
   height: 100%; }
 
 .mission_pop img {
-  width: 10%; }
+  width: 60%;
+  height: 100%;
+ }
 
 /*# sourceMappingURL=home.css.map */

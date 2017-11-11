@@ -3,10 +3,10 @@ $(document).ready(function(){
     var strings = ["naut1", "naut2", "naut3","naut4", "naut5", "naut6", "naut7", "naut8"];
     var nauts = ["aut1", "aut2", "aut3","aut4", "aut5", "aut6", "aut7", "aut8"];
     var active_posts = [
-        new Post("Wear Black!", "I'm getting sick of wearing boring colors everyday. I want to start wearing more red or pink.#colors #unique", [1], ["colors","unique"], "Los Angeles  - 73,231 - 11/11/17", "thread1", 1, true),
-        new Post("Nailpolish","I'm a guy and I want to be confident wearing nail polish.", [2], ["confidence","breaksocialnorms"], "Tokyo", "thread2", 2, true),
-        new Post("Random Chats", "Greet everyone who passes me on the street.", [3], ["mnnice","friendlyaf"], "St. Paul", "thread3", 3, true),
-        new Post("No phone subways", "I don't want to use my phone on the subway on my commute.", [4], ["mindfulness","offthegrid"], "Amsterdam", "thread4", 4, true),
+        new Post("Wear Black!", "I'm getting sick of wearing boring colors everyday. #colors #unique", [1], ["colors","unique"], "Los Angeles", "thread1", 1, true),
+        new Post("Nailpolish","I'm a guy and I want to be confident wearing nail polish. Be who you are. Eveyrone else is taken.", [2], ["confidence","breaksocialnorms"], "Tokyo", "thread2", 2, true),
+        new Post("Random Chat", "Greet everyone who passes me on the street.", [3], ["mnnice","friendlyaf"], "St. Paul", "thread3", 3, true),
+        new Post("No phones", "I don't want to use my phone on the subway on my commute.", [4], ["mindfulness","offthegrid"], "Amsterdam", "thread4", 4, true),
     ]
 
     var past_posts = [
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
             })
     $(".trending").mouseleave(function(){
-        $(".trending_arrow").hide();
+        $(".trending_arrow").show();
             })
     $(".b2").click(function(){
         if(i < 0){
@@ -109,14 +109,14 @@ $(document).ready(function(){
         $(".past-nauts").css("opacity", "1");
     })
 
-    // $(".pledge").click(function(){
-    //     $(this).hide();
-    //     $(this).next().show();
-    // })
-    // $(".mission_pop").click(function(){
-    //     $(this).hide();
-    //     $(this).prev().show();
-    // })
+    $(".pledge").click(function(){
+        $(".mission_pop").append("<img src='../assets/mission!-16.png'>");
+        $(".pledge").hide();
+    })
+    $(".mission_pop").click(function(){
+        $(".mission_pop img").remove();
+        $(".pledge").show();
+    })
 
 
 
