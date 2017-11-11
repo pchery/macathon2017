@@ -174,4 +174,10 @@
 .setting-sub {
   font-size: 1em; }
 
+.settings-head {
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #F5A92F; }
+
 /*# sourceMappingURL=home.css.map */
