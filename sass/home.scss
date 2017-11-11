@@ -16,7 +16,8 @@
 }
 
 .naut-visualization img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 //---------------- Trending -----------------
@@ -38,6 +39,10 @@
   margin-top: 15px;
 }
 
+#pledge-trending img {
+  width: 30%;
+}
+
 
 // ---------------- Hashtags ----------------
 .hashtag-container {
@@ -51,6 +56,9 @@
 .hashtag {
   height: 2em;
   border-radius: 5px;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 3px;
 }
 
 .hashtag-container .hashtag {
@@ -60,13 +68,13 @@
 
 
 //--------------------Dashboard ----------------------
-.naut-title {
+.naut-header {
   height: 2em;
   background: none;
   margin-bottom: 10px;
 }
 
-.naut-title p {
+.naut-header p {
   color: $orange;
   display: flex;
   justify-content: center;
@@ -76,42 +84,87 @@
   font-size: 30px;
 }
 
+
 #middle-line {
   color: $dark-blue;
 }
 
-
-.naut-item {
-  margin-top: 10px;
-  height: 5em;
+.naut-selector {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.pledge {
-  position: absolute;
-  justify-content: center;
-  bottom: 0;
-  right: 50%;
-  width: 2%;
-  display: block; 
-}
-
-.mission_pop {
-  position: absolute;
-  bottom: 0;
-  right: 50%;
-  width: 10%;
-  display: none; 
-  margin: auto;
-}
-
-.trending_arrow {
-  display:none; 
-  margin:auto; 
-  width: 90%;
-
+.naut-title {
+  font-size: 2em;
+  color: $dark-blue;
 }
 
 .naut-location {
-  align
+  font-size: 1.5em;
+  color: $orange;
+  text-align: right;
+}
 
+.naut-body {
+  color: $dark-blue;
+  font-size: 1em;
+  font-family: Moon-light;
+  margin-left: 1em;
+}
+
+.naut-item {
+  margin-top: 10px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.trending_arrow {
+  display:none;
+  margin:auto;
+  width: 90%;
+}
+
+.container {
+  margin-bottom: 40px;
+}
+
+.naut-bottom{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: 3em;
+}
+
+.naut-bottom div {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 3px;
+  font-size: 1.3em;
+  vertical-align: middle;
+  color: $orange;
+}
+
+
+.naut-bottom i {
+  font-size: 2em;
+  margin-right: 5px;
+  color: $orange;
+}
+
+
+.naut-bottom .reply {
+  justify-content: flex-start;
+}
+
+.naut-bottom .flag {
+  justify-content: flex-end;
+}
+
+.pledge img {
+  width:11%;
+  height: 100%;
+}
+
+.mission_pop img {
+  width:10%;
 }
