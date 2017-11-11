@@ -134,8 +134,13 @@
   height: 100%; }
 
 .mission_pop img {
-  width: 60%;
-  height: 100%;
- }
+  width: 10%; }
+
+#join a {
+  color: #082E4B;
+  cursor: pointer; }
+
+.trending join {
+  font-size: 0.76em; }
 
 /*# sourceMappingURL=home.css.map */

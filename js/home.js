@@ -109,13 +109,18 @@ $(document).ready(function(){
         $(".past-nauts").css("opacity", "1");
     })
 
-    $(".pledge").click(function(){
-        $(".mission_pop").append("<img src='../assets/mission!-16.png'>");
-        $(".pledge").hide();
-    })
-    $(".mission_pop").click(function(){
-        $(".mission_pop img").remove();
-        $(".pledge").show();
+    // $("$pledge").click(function(){
+    //     $(".mission_pop").append("<img src='../assets/mission!-16.png'>");
+    //     $(".pledge").hide();
+    // })
+    // $(".mission_pop").click(function(){
+    //     $(".mission_pop img").remove();
+    //     $(".pledge").show();
+    // })
+
+    $(".joinText").click(function(){
+      $(this).text('Joined!');
+
     })
 
 
