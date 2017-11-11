@@ -8,7 +8,7 @@
   margin: 3em 3em 3em 3em; }
 
 .launch {
-  height: 27rem;
+  height: 35rem;
   background-color: #EAEDF3;
   border-radius: 5px;
   display: flex;
@@ -38,5 +38,8 @@
 
 .submitBtn a {
   color: #F5A92F; }
+.text-area{
 
+  margin-top:30px
+}
 /*# sourceMappingURL=launch.css.map */
