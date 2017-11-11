@@ -6,7 +6,7 @@ $(document).ready(function() {
     new Post("Wear Black!", "I'm getting sick of wearing boring colors everyday. #colors #unique", [1], ["colors", "unique"], "Los Angeles", "thread1", 1, true),
     new Post("Random Chat", "Greet everyone who passes me on the street.", [3], ["mnnice", "friendlyaf"], "St. Paul", "thread3", 3, true),
     new Post("No phones", "I don't want to use my phone on the subway on my commute.", [4], ["mindfulness", "offthegrid"], "Amsterdam", "thread4", 4, true),
-    new Post("Nailpolish", "I'm a guy and I want to be confident wearing nail polish. Be who you are. Eveyrone else is taken.", [2], ["confidence", "breaksocialnorms"], "St. Paul", "thread2", 2, true),
+    new Post("Pink hats", "Join me in wearing a pink hat for the women's march to protest Trump's misogyny!", [2], ["confidence", "breaksocialnorms"], "St. Paul", "thread2", 2, true),
 
   ]
 
