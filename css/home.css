@@ -157,4 +157,21 @@
 .trending join {
   font-size: 0.76em; }
 
+.loggedout {
+  margin: 3em;
+  text-align: center;
+  font-size: 3em; }
+  .loggedout p {
+    font-size: 0.5em; }
+
+.settings {
+  margin: 4em;
+  height: 10em; }
+
+.setting-header {
+  font-size: 1.5em; }
+
+.setting-sub {
+  font-size: 1em; }
+
 /*# sourceMappingURL=home.css.map */
