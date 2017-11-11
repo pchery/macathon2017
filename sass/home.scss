@@ -7,7 +7,8 @@
 .line {
   border-color: $dark-blue;
   border-width: 3px;
-  margin-bottom: 3px;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .content {
@@ -15,29 +16,23 @@
   background: radial-gradient($salmon, $salmon,white); //
 }
 
-
 .all-container {
-  padding: 0 5em 0 5em;
+  padding: 0 5em;
 }
+
 .naut-visualization img {
   max-width: 100%;
   max-height: 100%;
 }
-
 //---------------- Trending -----------------
-.trending1, .trending2{
-
-
-}
-
 .trending .trending-box-1 {
-  padding-right:5px;
-  padding-left: 0px;
+  padding-right: 5px;
+  padding-left: 0;
 }
 
 .trending .trending-box-2 {
-  padding-left:5px;
-  padding-right: 0px;
+  padding-left: 5px;
+  padding-right: 0;
 }
 
 .trending {
@@ -47,9 +42,8 @@
 #pledge-trending img {
   width: 30%;
 }
-
-
 // ---------------- Hashtags ----------------
+
 .hashtag-container {
   margin-top: 10px;
 }
@@ -70,9 +64,8 @@
   background-color: $light-grey;
   border-radius: 5px;
 }
-
-
 //--------------------Dashboard ----------------------
+
 .naut-header {
   height: 2em;
   background: none;
@@ -88,7 +81,6 @@
   font-family: Moon-Bold;
   font-size: 30px;
 }
-
 
 #middle-line {
   color: $dark-blue;
@@ -124,17 +116,28 @@
 }
 
 .trending_arrow {
-  display:block;
-  margin:auto;
+  display: block;
+  margin: auto;
   width: 90%;
   max-width: 50px;
 }
 
-.container {
-  margin-bottom: 40px;
+.trending-header {
+  font-size: 2em;
+  text-align: center;
 }
 
-.naut-bottom{
+.container {
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+.my-nauts,
+.past-nauts {
+  cursor: pointer;
+}
+
+.naut-bottom {
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -150,13 +153,11 @@
   color: $orange;
 }
 
-
 .naut-bottom i {
   font-size: 2em;
   margin-right: 5px;
   color: $orange;
 }
-
 
 .naut-bottom .reply {
   justify-content: flex-start;
@@ -167,17 +168,22 @@
 }
 
 .pledge img {
-  width:11%;
+  width: 11%;
   height: 100%;
 }
 
 .mission_pop img {
-  width:10%;
+  width: 10%;
 }
 
-#join a {
-  color : $dark-blue;
+#join a,
+#join i {
+  color: $dark-blue;
   cursor: pointer;
+}
+
+#join i {
+  font-size: 0.8em;
 }
 
 .trending join {

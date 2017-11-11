@@ -10,14 +10,15 @@
 .line {
   border-color: #082E4B;
   border-width: 3px;
-  margin-bottom: 3px; }
+  margin-bottom: 2em;
+  margin-top: 2em; }
 
 .content {
   border-radius: 5px;
   background: radial-gradient(#EBD2BD, #EBD2BD, white); }
 
 .all-container {
-  padding: 0 5em 0 5em; }
+  padding: 0 5em; }
 
 .naut-visualization img {
   max-width: 100%;
@@ -25,11 +26,11 @@
 
 .trending .trending-box-1 {
   padding-right: 5px;
-  padding-left: 0px; }
+  padding-left: 0; }
 
 .trending .trending-box-2 {
   padding-left: 5px;
-  padding-right: 0px; }
+  padding-right: 0; }
 
 .trending {
   margin-top: 15px; }
@@ -101,8 +102,17 @@
   width: 90%;
   max-width: 50px; }
 
+.trending-header {
+  font-size: 2em;
+  text-align: center; }
+
 .container {
-  margin-bottom: 40px; }
+  margin-bottom: 3em;
+  margin-top: 3em; }
+
+.my-nauts,
+.past-nauts {
+  cursor: pointer; }
 
 .naut-bottom {
   display: flex;
@@ -136,9 +146,13 @@
 .mission_pop img {
   width: 10%; }
 
-#join a {
+#join a,
+#join i {
   color: #082E4B;
   cursor: pointer; }
+
+#join i {
+  font-size: 0.8em; }
 
 .trending join {
   font-size: 0.76em; }
