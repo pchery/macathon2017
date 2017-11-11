@@ -1,6 +1,19 @@
+@font-face {
+  font-family: Moon-Light;
+  src: url("Moon Light.otf"); }
+@font-face {
+  font-family: Moon-Bold;
+  src: url("Moon Bold.otf"); }
+* {
+  font-family: Moon-Bold; }
+
+.line {
+  border-color: #082E4B;
+  border-width: 3px; }
+
 .content {
   border-radius: 5px;
-  background-color: blue; }
+  background: radial-gradient(#EBD2BD, #EBD2BD, white); }
 
 .naut-visualization {
   height: 15em; }
@@ -16,9 +29,6 @@
   padding-left: 5px;
   padding-right: 0px; }
 
-.hr {
-  display: block; }
-
 .hashtag-container {
   margin-top: 10px; }
 
@@ -32,10 +42,11 @@
   height: 2em; }
 
 .naut-title p {
-  color: white;
+  color: #082E4B;
   display: flex;
   justify-content: center;
-  padding-top: 2px; }
+  padding-top: 2px;
+  font-family: Moon-Bold; }
 
 .naut-item {
   margin-top: 10px;

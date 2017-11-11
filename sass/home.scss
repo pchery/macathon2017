@@ -1,7 +1,17 @@
+@import "variables";
+
+* {
+  font-family: Moon-Bold;
+}
+
+.line {
+  border-color: $dark-blue;
+  border-width: 3px;
+}
 
 .content {
   border-radius: 5px;
-  background-color: blue;
+  background: radial-gradient($salmon, $salmon,white); //
 }
 
 .naut-visualization {
@@ -23,9 +33,6 @@
   padding-right: 0px;
 }
 
-.hr {
-  display: block;
-}
 
 // ---------------- Hashtags ----------------
 .hashtag-container {
@@ -47,10 +54,11 @@
 }
 
 .naut-title p {
-  color: white;
+  color: $dark-blue;
   display: flex;
   justify-content: center;
   padding-top: 2px;
+  font-family: Moon-Bold;
 }
 
 
