@@ -1,0 +1,47 @@
+@import "variables";
+
+*, html, .container, body,  {
+  background-color: $light-grey;
+}
+
+.landing {
+  margin-top: 3em;
+}
+
+.landing img {
+  width: 30%;
+  left: 50%;
+  right: 50%;
+  display: block;
+  margin: auto;
+}
+
+.mission-tag-container {
+  margin-top: 3em;
+  display: flex;
+}
+
+.mission-tag, .login {
+  justify-content: center;
+  display: flex;
+}
+
+.mission-tag p {
+  font-size: 2em;
+}
+
+.login form {
+  font-size:1.1em;
+  display: inline;
+}
+
+.form-control {
+  display: inline;
+}
+
+.login-image {
+  position: absolute;
+  right:47%;
+  height:17%;
+  width: auto;
+}

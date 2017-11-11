@@ -16,8 +16,8 @@
   border-radius: 5px;
   background: radial-gradient(#EBD2BD, #EBD2BD, white); }
 
-.naut-visualization {
-  height: 15em; }
+.naut-visualization img {
+  width: 100%; }
 
 .trending1, .trending2 {
   height: 8em; }
